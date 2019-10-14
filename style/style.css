@@ -1,0 +1,327 @@
+body {
+	margin: 0px;
+	background-color: #f0f0f0;
+}
+* {
+	box-sizing: border-box;
+}
+.float-left {
+	float: left;
+}
+.float-right {
+	float: right;
+}
+.container {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.prds h5, strike {
+	color: black;
+}
+.prds b {
+	color: #b10000;
+}
+.prds {
+	padding: 15px 10px;
+	/* border: solid 1px #a7a7a7; */
+}
+.prds:hover {
+	box-shadow: 0px 0px 10px 0px #a7a7a7;
+	border-radius: 3px;
+}
+.prds div.col-xs-12 {
+	margin: 15px 0px 0px 0px;
+}
+.prds div.col-xs-12 .buy-btn {
+	width: 101px;
+	margin: auto;
+}
+.prds div.col-xs-12 .buy-btn button {
+	color: #4CAF50;
+	border: solid 1px #4CAF50;
+}
+.prds div.col-xs-12 .buy-btn button:hover {
+	color: white;
+	border: none;
+	background-color: #4CAF50;
+}
+
+/* ---------- Header ---------- */
+.box-header {
+	margin-bottom: 0px;
+}
+.box-header .header a.float-right {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	height: 44px;
+}
+.box-header .header {
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.box-header {
+	background-color: #4CAF50;
+	border-radius: 0px;
+}
+#shopping-cart-for-small-screen {
+	display: none;
+}
+.box-header .header form input, button {
+	height: 44px;
+	border: none;
+}
+.box-header .header form div input {
+	border-radius: 3px 0px 0px 3px;
+	border-right: 0px;
+
+}
+.box-header .header form div button {
+	border-radius: 0px 3px 3px 0px;
+	background-color: #DBD521;
+}
+.box-header .header #shopping-cart-for-small-screen span {
+	font-size: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+/* ---------- Menu ---------- */
+.box-menu {
+	border-radius: 0px;
+	background-color: #DBD521;
+	border: none;
+	margin-bottom: 0px;
+}
+.box-menu .menu a.menu-button {
+	text-decoration: none;
+	color: #777;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.box-menu .menu a.menu-button:hover {
+	color: black;
+}
+.box-menu .menu div {
+	padding: 15px;
+}
+.box-menu .menu a.menu-button {
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#box-option-for-phone-btn, #box-option-for-accessories-btn {
+	display: none;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: white;
+	z-index: 2;
+	box-shadow: 0px 2px 12px 0px #a7a7a7;
+	border-radius: 3px;
+}
+.box-menu-option .menu-option li {
+	list-style: none;
+}
+.box-menu-option .menu-option a {
+	text-decoration: none;
+	color: black;
+}
+.box-menu-option .menu-option a:hover {
+	color: blue;
+}
+.box-menu-option .menu-option .middle-div {
+	border-left: solid 1px #e3e3e3;
+	border-right: solid 1px #e3e3e3;
+}
+.box-menu-option .menu-option ul {
+	padding: 0px;
+	list-style: none;
+}
+.box-menu-option .menu-option b {
+	margin-bottom: 15px;
+}
+.box-menu-option .menu-option .left-div, .middle-div, .right-div {
+	padding: 0px;
+}
+.box-menu-option .menu-option .right-div img {
+	margin-right: 15px; 
+	width: 80px;
+	height: 80px;
+}
+.box-menu-option .menu-option .right-div .best-seller b {
+	color: red;
+	font-size: 17px;
+}
+#box-option-for-accessories-btn .right-div {
+	border-left: solid 1px #e3e3e3;
+}
+
+/* ----- Slide show ----- */
+.box-slide .slide-show {
+	padding: 0px;
+}
+
+/* ----- Home products ----- */
+.box-home-products {
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+.box-home-products .new-sale-off-products, .new-phone, .new-accessories {
+	background-color: white;
+	border-radius: 3px;
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+.box-home-products .top-div h4 {
+	padding: 0px;
+}
+.box-home-products .top-div a {
+	text-align: right;
+	text-decoration: none;
+	padding: 8px 0px;
+}
+
+/* ----- Phone products ----- */
+.phone-products {
+	margin-bottom: 15px;
+}
+.phone-products .phone-companies, .filter, .box-products {
+	padding: 0px 4px;
+	border-radius: 3px;
+	background-color: white;
+	margin: 8px 0px;
+}
+.phone-products .phone-companies a {
+	padding: 4px;
+}
+.phone-products .phone-companies {
+	margin: 16px 0px 8px 0px;
+}
+.phone-products .filter p {
+	padding: 8px;
+	margin: 0px;
+	text-decoration: none;
+}
+.phone-products .filter a {
+	padding: 8px;
+	margin: 0px;
+	text-decoration: none;
+}
+
+.phone-products .filter div {
+	padding: 8px;
+	margin: 0px;
+	text-decoration: none;
+	padding-left: 30px;
+}
+.phone-products .filter button {
+	border: none;
+	background-color: white;
+	padding: 0px;
+	height: 20px;
+}
+.phone-products .box-products .top-div {
+	padding: 8px 0px;
+}
+.phone-products .phone-companies, .filter, .box-products {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.phone-products .box-products .top-div, .middle-div, .bottom-div {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.phone-products .box-products .top-div h4 {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.phone-products .box-products .bottom-div div.more-products-btn {
+	margin: auto;
+	width: 193px;
+}
+.phone-products .box-products .bottom-div div.more-products-btn button {
+	color: #288ad6;
+}
+.phone-products .box-products .bottom-div div.more-products-btn button:hover {
+	color: white;
+	background-color: #DBD521;
+	border: 0px;
+}
+.phone-products .box-products .bottom-div {
+	margin: 15px 0px;
+}
+
+
+/* ----- Accessories products ----- */
+.accessories-products .accessories-types, .filter, .box-products {
+	background-color: white;
+	border-radius: 3px;
+}
+.accessories-products .accessories-types a img {
+	padding: 0px;
+}
+.accessories-products .accessories-types a p {
+	padding: 0px;
+	text-align: center;
+	color: black;
+}
+.accessories-products .accessories-types a p:hover {
+	color: blue;
+}
+.accessories-products .accessories-types {
+			margin: 16px 0px 8px 0px;
+		}
+#acc-type-for-small-screen {
+	display: none;
+}
+#acc-type-for-small-screen a {
+	text-decoration: none;
+	color: black;
+	padding: 8px;
+	/* background-color: #d2d2d2; */
+	background-color: #DBD521;
+	margin: 8px;
+	border-radius: 20px;
+}
+
+
+/* ----- Footer ----- */
+.box-footer {
+	background-color: #DBD521;
+}
+.box-footer .footer div h3 {
+	text-align: center;
+	width: 100%;
+}
+.box-footer .footer div p {
+	text-align: center;
+	width: 100%;
+}
+
+
+/* -------------------- Mobile screen -------------------- */
+@media screen and (max-width:768px) {
+	/* ----- Phần header ----- */
+	#shopping-cart-for-small-screen {
+		display: block;
+	}
+	#shopping-cart-for-large-screen {
+		display: none;
+	}
+	.box-header .header form {
+		padding-top: 8px;
+	}
+
+	/* ----- Products ----- */
+	.undisplay-for-small-screen {
+		display: none;
+	}
+
+	/* ----- Accessories products ----- */
+	#acc-type-for-small-screen {
+		display: block;
+	}
+	#acc-type-for-large-screen {
+		display: none;
+	}
+}
